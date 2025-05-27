@@ -1,0 +1,20 @@
+{
+  "name": "web-automation",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --env-file=.env index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "chester",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@inquirer/prompts": "^7.5.2",
+    "axios": "^1.9.0",
+    "ghost-cursor": "^1.4.1",
+    "md5": "^2.3.0",
+    "puppeteer": "^24.9.0"
+  }
+}
